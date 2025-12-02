@@ -1,6 +1,8 @@
 site_name: 预测市场入门指南
 site_description: 利用集体智慧预测未来、做出更好决策
 site_author: 作者
+repo_url: https://github.com/USERNAME/REPO
+edit_uri: edit/main/docs/
 
 theme:
   name: material
@@ -9,11 +11,31 @@ theme:
     - scheme: default
       primary: indigo
       accent: blue
+  features:
+    - navigation.instant
+    - navigation.top
+    - navigation.tabs
+    - toc.integrate
+    - search.highlight
+    - search.suggest
+    - content.code.copy
 
 plugins:
   - search
 
-docs_dir: .
+markdown_extensions:
+  - admonition
+  - footnotes
+  - attr_list
+  - md_in_html
+  - toc:
+      permalink: true
+  - pymdownx.superfences
+  - pymdownx.details
+  - pymdownx.tabbed
+  - pymdownx.tasklist
+
+docs_dir: docs
 
 nav:
   - 前言: 前言.md
