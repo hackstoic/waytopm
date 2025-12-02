@@ -1,0 +1,41 @@
+site_name: 预测市场入门指南
+site_description: 利用集体智慧预测未来、做出更好决策
+site_author: 作者
+
+theme:
+  name: material
+  language: zh
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: blue
+
+plugins:
+  - search
+
+docs_dir: .
+
+nav:
+  - 前言: 前言.md
+  - 大纲: 大纲.md
+  - 贡献指南: CONTRIBUTING.md
+  - 行为准则: CODE_OF_CONDUCT.md
+  - 许可证: LICENSE
+  - 第 1 章｜什么是预测市场: chapter_01.md
+  - 第 2 章｜为什么有效: chapter_02.md
+  - 第 3 章｜合约类型: chapter_03.md
+  - 第 4 章｜参与实战: chapter_04.md
+  - 第 5 章｜真实案例: chapter_05.md
+  - 第 6 章｜区块链预测市场: chapter_06.md
+  - 第 7 章｜创建预测市场: chapter_07.md
+  - 第 8 章｜组织 / 企业应用: chapter_08.md
+  - 第 9 章｜风险、伦理与监管: chapter_09.md
+  - 第 10 章｜未来趋势: chapter_10.md
+  - 全书总结页: 全书总结页.md
+  - 术语指南: 术语指南.md
+  - 参考文献: 参考文献.md
+  - 致谢: 致谢.md
+  - 附录:
+      - 附录 A：FAQ: 附录A.md
+      - 附录 B：推荐资源: 附录B.md
+      - 附录 C：进一步阅读: 附录C.md
