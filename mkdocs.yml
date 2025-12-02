@@ -1,7 +1,7 @@
 site_name: 预测市场入门指南
 site_description: 利用集体智慧预测未来、做出更好决策
 site_author: 作者
-repo_url: https://github.com/USERNAME/REPO
+repo_url: https://github.com/hackstoic/waytopm
 edit_uri: edit/main/docs/
 
 theme:
