@@ -13,15 +13,27 @@ theme:
       accent: blue
   features:
     - navigation.instant
-    - navigation.top
-    - navigation.tabs
+    - navigation.expand
+    - navigation.sections
+    - navigation.tracking
     - toc.integrate
     - search.highlight
     - search.suggest
     - content.code.copy
+    - navigation.footer
 
 plugins:
   - search
+
+extra_css:
+  - stylesheets/overrides.css
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/hackstoic/waytopm
+      name: GitHub
+  copyright: "Copyright © 2025 作者｜内容许可：CC BY-SA 4.0"
 
 markdown_extensions:
   - admonition
@@ -38,11 +50,8 @@ markdown_extensions:
 docs_dir: docs
 
 nav:
-  - 前言: 前言.md
+  - 前言: index.md
   - 大纲: 大纲.md
-  - 贡献指南: CONTRIBUTING.md
-  - 行为准则: CODE_OF_CONDUCT.md
-  - 许可证: LICENSE
   - 第 1 章｜什么是预测市场: chapter_01.md
   - 第 2 章｜为什么有效: chapter_02.md
   - 第 3 章｜合约类型: chapter_03.md
@@ -61,3 +70,7 @@ nav:
       - 附录 A：FAQ: 附录A.md
       - 附录 B：推荐资源: 附录B.md
       - 附录 C：进一步阅读: 附录C.md
+  - 项目信息:
+      - 贡献指南: CONTRIBUTING.md
+      - 行为准则: CODE_OF_CONDUCT.md
+      - 许可证: LICENSE
